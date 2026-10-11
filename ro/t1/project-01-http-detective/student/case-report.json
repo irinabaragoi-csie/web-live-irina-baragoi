@@ -3,16 +3,16 @@
     "method": "GET",
     "pathname": "/assets/detective.css",
     "query": {},
-    "requestMediaType": "null",
+    "requestMediaType": null,
     "status": 200,
-    "responseMediaType": "test/css",
+    "responseMediaType": "text/css",
     "bodyRepresentation": "text"
   },
   "clues": {
     "method": "GET",
     "pathname": "/api/clues",
     "query": { "case": "missing-cookie" },
-    "requestMediaType": "null",
+    "requestMediaType": null,
     "status": 200,
     "responseMediaType": "application/json",
     "bodyRepresentation": "json",
@@ -25,7 +25,7 @@
     "requestMediaType": "application/json",
     "status": 201,
     "responseMediaType": "application/json",
-    "bodyRepresentation": "application/json",
+    "bodyRepresentation": "json",
     "location": "/api/verdicts/verdict-1"
   }
 }
